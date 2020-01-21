@@ -1,0 +1,42 @@
+WHY +4 IN PROPERTY TYPE BUT COMMA SEPARATED IN BHK
+
+In NSR Pages, 
+
+1.tags should be corresponding to fields, instead of values.
+
+  in case of multiple values, the values should be shown as comma separated. Only the cases which are checkboxes in the filter page design, are not logically related and so will be individual tags (5 in number currently).
+
+2.the maximum length of the tabs should be of 20 characters
+
+   in case more than 20 characters, after 20 character the text will be truncated followed by ellipis
+
+3.all the used filters except location and property type should be used 
+
+4. the order of the tags should be as they appear in the Filter Page topdown(msite)
+		NOT HAPPENING WHEN WE APPLY BHK AND BUDGET FILTER ON MSITE, IT HAPPENS ON CONTACT FORM 
+
+5.label of “Remove Filters” to be changed to “Reset Filters”
+
+6.when the user clicks on Remove All filters, all applied filters should be removed except default filters(Property Type and Location)  and user should be taken to the SRP
+
+7.When more than 1 field is shown and truncation happens, show [+number] which will include the count of the truncated option
+
+8.As soon as the user removes one filter tag, the search should be run and if values are present user should be redirected to the SRP or NSR page in case no results are found. In this case, if the NSR is coming for the second time, the text in the NSR heading will be updated. Design to provide the text.In this case, if user clicks back from 2nd NSR, then open filter page.
+
+9."Update Search" button to be removed - replace with "....." seperator.
+
+10.Set Alert  is not present in Msite
+
+11.When the user taps on back button(msite), the previous SRP page is opened with the new filters not applied, when an SRP was already formed. If this was the first search in this session, then on back button from NSR, the user will be shown the search form (which he would have come from).
+
+12.If in a search query, there was only 2 filters applied namely location and property type, due to which NSR came - 
+For Msite
+        
+if user crosses out location, open the auto-suggest page directly of search page; if user crosses out property type, show search page.
+
+     For Desktop
+
+Do not show default filters - instead show nearby localities (Max 10)
+
+13.If we get a relaxed NSR, and user applies a filter resulting in pure NSR - we will show tags as mentioned above. On removing the tag for the last filter applied the user will be redirected to the relaxed NSR results page
+
